@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url("https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2N1cnJlbmN5LXN5bWJvbHMtNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ==");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: top;
+    border: 3px solid black;
+}
+
+.mainDiv {
+    background-color: #343a40d3;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 20px;
+    margin: 7% auto;
+    box-shadow: rgb(38, 57, 77) 0px 30px 40px -10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.from,
+.to {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    max-width: 550px;
+    margin: 15px auto;
+    padding: 7px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 7px 15px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 500px;
+    font-weight: bolder;
+}
+
+.value {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+input {
+    background-color: #f0f8ff;
+    border: 2px solid #191919;
+    border-radius: 7px;
+    padding-left: 7px;
+}
+
+select {
+    border-radius: 7px;
+    background-color: aliceblue;
+    border: 2px solid #191919;
+}
+
+.swap {
+    color: #191919;
+    font-weight: bolder;
+    background-color: #dee2e6;
+    border: 1.5px solid #191919;
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+
+.swap:hover {
+    background-color: #dee2e6d3;
+}
