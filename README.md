@@ -1,5 +1,4 @@
-
-Certainly! Writing a clear and concise project description is crucial for others to understand and contribute to your project. Here's a sample project description for your ReactJS currency converter:
+currency converter:
 
 React Currency Converter
 Overview
